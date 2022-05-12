@@ -1,4 +1,3 @@
-
 function(test_build FILENAME)
     set(APP ${FILENAME})
     add_executable(${APP} ${FILENAME}.c)
