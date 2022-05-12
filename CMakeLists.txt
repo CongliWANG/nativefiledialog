@@ -37,4 +37,6 @@ if(LINUX)
     endif()
 endif()
 
+add_subdirectory(test)
+
 install(TARGETS nativefiledialog DESTINATION lib)
